@@ -16,7 +16,7 @@
 <script>
 
 const manifestUri =
-    '已获取到Key ID & Key 的 MPD 文件 URL';
+    'https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd';
 
 async function init() {
   // When using the UI, the player is made automatically by the UI object.
@@ -29,7 +29,7 @@ player.configure({
   drm: {
     clearKeys: {
       // 'key-id-in-hex': 'key-in-hex',
-      '对应的 Key ID': '对应的 Key'
+      '01eb1168208940f8b270b4e0994570e7': 'e75165d38b909567c03353ae4b27b6f8'
     }
   }
 });
